@@ -6,7 +6,7 @@ to verify that the application runs correctly.
 
 ## 2. Success Criteria
 - Running the script produces output
-- Output is exactly: Hello, World
+- Output is exactly: HELLO WORLD
 - Script exits without error
 
 ## 3. Invariants
