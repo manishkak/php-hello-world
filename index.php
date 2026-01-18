@@ -2,4 +2,5 @@
 // Only output "Hello, World", single file, no libraries, no routing, no logging
 // Output a static hello world string
 <?php
-echo "Hello, World";
+    echo "Hello, World";
+?>
