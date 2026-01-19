@@ -1,3 +1,9 @@
+<!-- Purpose: A real, runnable task SOP for your agent
+    Contains actual content for a task, not placeholders
+    Includes Questions and Answers already filled out
+    Used directly by agent.php to generate index.php
+Key point: This is the actual task the agent executes. _task_template.md is just a guide, task-hello-world.md is executable -->
+
 # Task Title
 Generate PHP Hello World
 

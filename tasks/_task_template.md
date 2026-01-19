@@ -1,3 +1,14 @@
+<!-- Purpose: Template for creating any new task SOP
+It’s never executed directly
+Contains placeholders like <what should be built>
+Defines structure:
+    Task metadata
+    Questions section
+    Success criteria
+Guides humans to create new tasks consistently
+Think of it as the “blueprint”
+Key point: Humans copy this and fill in specific details for a real task. -->
+
 # Task Metadata
 Task-Type: Code-Generation
 Language: PHP
