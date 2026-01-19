@@ -12,13 +12,15 @@ Generate a single PHP file that prints HELLO WORLD.
 - Plain text output only
 
 ## Questions
-1. Should output be uppercase?  
+
+1. Output format?
+2. Uppercase output? (YES/NO)
+3. Accept input? (YES/NO)
+
+## Answers
+
 > YES
-
-2. Should there be any HTML?  
-> NO
-
-3. Should it accept input parameters?  
+> YES
 > NO
 
 ## Success Criteria

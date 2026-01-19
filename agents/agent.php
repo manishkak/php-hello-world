@@ -15,6 +15,22 @@ $answers = $matches[1];
 
 // --- clean up answers and define variables ---
 $answers = array_map('trim', $answers);  // remove whitespace
+
+/* validation block */
+// --- VALIDATION: ensure Answers section exists ---
+if (!str_contains($taskContent, '## Answers')) {
+    echo "No Answers section found.\n";
+    echo "Please answer the questions in the task file and re-run.\n";
+    exit(0);
+}
+
+// Parse answers (already done earlier)
+if (count($answers) < 3) {
+    echo "Incomplete answers.\n";
+    echo "Please answer all questions in the task file.\n";
+    exit(0);
+}
+
 $outputUpper = (isset($answers[0]) && strtoupper($answers[0]) === 'YES') ? true : false;
 $acceptInput = (isset($answers[2]) && strtoupper($answers[2]) === 'YES') ? true : false;
 
