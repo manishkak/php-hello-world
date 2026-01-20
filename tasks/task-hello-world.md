@@ -19,13 +19,11 @@ Generate a single PHP file that prints HELLO WORLD.
 
 ## Questions
 
-1. Output format?
-2. Uppercase output? (YES/NO)
-3. Accept input? (YES/NO)
+1. Uppercase output? (YES/NO)
+2. Accept input? (YES/NO)
 
 ## Answers
 
-> YES
 > YES
 > NO
 
